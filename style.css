@@ -1,0 +1,179 @@
+html{
+    font-family: sans-serif;
+}
+
+.lg {
+    font-size: 65px;
+    color: royalblue;
+    font-family: sans-serif;
+}
+
+.logo {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+}
+
+.log {
+    margin: 20px 10px;
+    width: 95px;
+    height: 95px;
+}
+
+.hd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav {
+    display: flex;
+    text-align: end;
+    margin: 50px 30px;
+}
+
+.navi {
+    margin: 0px 30px;
+    font-size: 25px;
+}
+
+/* контейнер реклами */
+
+.ad {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 20px;
+    border: 2px solid #cce6f1;
+    background-color: #cce6f1;
+    border-radius: 15px;
+}
+
+.ad-c {
+    display: table-column;
+}
+
+.ad-img {
+    width: 300px;
+    height: 300px;
+    margin: 40px 50px;
+    align-items: end;
+}
+
+.ad-txt {
+    margin: 30px 25px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.ad-h {
+    margin: 30px 25px;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+.ad-btn {
+    color: snow;
+    margin: 55px 45px;
+    font-size: 30px;
+    border: 1px solid royalblue;
+    border-radius: 15px;
+    background-color: royalblue;
+    padding: 24px 32px;
+    transition: 0.7s;
+}
+
+.ad-btn:hover {
+    color: snow;
+    margin: 55px 45px;
+    font-size: 30px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: blue;
+    padding: 24px 32px;
+    transition: 0.7s;
+}
+
+/* секція з розрахунками */
+
+.raz {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px 20px;
+    padding: 15px;
+    display: block;
+    
+}
+
+.raz-c-s {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px 50px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.raz-h {
+    font-size: 40px;
+    margin: 30px 30px;
+    text-align: left;
+}
+
+.raz-btn {
+    font-size: 25px ;
+    text-align: center;
+    color: snow;
+    border: 1px solid ;
+    border: 1px solid royalblue;
+    border-radius: 10px;
+    background-color: royalblue;
+    padding: 20px 80px;
+    margin: 20px 37%;
+    transition: 0.7s;
+}
+
+.raz-btn:hover {
+    font-size: 25px ;
+    text-align: center;
+    color: snow;
+    border: 1px solid ;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: blue;
+    padding: 20px 80px;
+    margin: 20px 37%;
+    transition: 0.7s;
+}
+
+.raz-ta {
+    font-size: 25px;
+    border: 1.5px solid black;
+    border-radius: 17px;
+    padding-top: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    align-items: end;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    border-top: 2px solid rgb(78, 78, 78);
+}
+
+.f-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-div{
+    margin: 10px 40px;
+    display: table-column;
+    text-align: center;
+}
