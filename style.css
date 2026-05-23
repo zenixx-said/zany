@@ -177,3 +177,29 @@ footer {
     display: table-column;
     text-align: center;
 }
+
+.result-screen {
+    text-align: center;
+    padding: 20px;
+}
+
+.calories-result {
+    font-size: 24px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.menu-result {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.restart-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.hide {
+    display: none;
+}
