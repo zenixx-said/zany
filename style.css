@@ -107,6 +107,17 @@ html{
     
 }
 
+.raz-select{
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #080000;
+    padding-left: 10px;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+}
+
 .raz-c-s {
     display: flex;
     align-items: center;
@@ -203,3 +214,91 @@ footer {
 .hide {
     display: none;
 }
+
+.calorie-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #dfe8d8;
+    border-radius: 25px;
+    padding: 45px 70px;
+    gap: 60px;
+    width: 95%
+    margin: 40px auto;
+}
+
+.left-calories {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 40 px;
+}
+
+.left-calories h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.main-calories {
+    font-size: 90px;
+    font-weight: bold;
+    color: #49a13d;
+
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.main-calories span:last-child {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.goals {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+    border-left: 2px solid #c7c7c7;
+
+    padding-left: 45px;
+
+    min-width: 320px;
+}
+
+.goal-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 18px;
+}
+
+.goal-item p {
+    margin: 0;
+}
+
+.goal-item span {
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.circle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+
+.green {
+    background: #4da644;
+}
+
+.blue {
+    background: #3d63ff;
+}
+
+.orange {
+    background: #f8a11c;
+}
+
