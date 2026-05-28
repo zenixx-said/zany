@@ -36,6 +36,8 @@ html{
 .navi {
     margin: 0px 30px;
     font-size: 25px;
+    cursor: pointer;
+    color:#6278d1
 }
 
 /* контейнер реклами */
@@ -103,59 +105,64 @@ html{
     border-radius: 20px;
     margin: 10px 20px;
     padding: 15px;
-    display: block;
-    
 }
 
 .raz-c-s {
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 40px;
+}
+
+.raz-a {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    margin: 15px 50px;
-    font-size: 35px;
+    gap: 15px;
+}
+
+.raz-p {
+    font-size: 30px;
     text-align: center;
+}
+
+.raz-ta,
+.raz-select {
+    width: 175px;
+    height: 45px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: white;
+    box-sizing: border-box;
+    resize: none;
 }
 
 .raz-h {
     font-size: 40px;
-    margin: 30px 30px;
-    text-align: left;
+    margin: 30px;
 }
 
 .raz-btn {
-    font-size: 25px ;
-    text-align: center;
-    color: snow;
-    border: 1px solid ;
+    font-size: 25px;
+    color: white;
     border: 1px solid royalblue;
     border-radius: 10px;
     background-color: royalblue;
-    padding: 20px 80px;
-    margin: 20px 37%;
+    padding: 15px 60px;
+    margin: 20px auto;
+    display: block;
     transition: 0.7s;
+    cursor: pointer;
 }
 
 .raz-btn:hover {
-    font-size: 25px ;
-    text-align: center;
-    color: snow;
-    border: 1px solid ;
     border: 1px solid blue;
-    border-radius: 5px;
     background-color: blue;
-    padding: 20px 80px;
-    margin: 20px 37%;
-    transition: 0.7s;
-}
-
-.raz-ta {
-    font-size: 25px;
-    border: 1.5px solid black;
-    border-radius: 17px;
-    padding-top: 15px;
-    text-align: center;
-    font-family: sans-serif;
-    align-items: end;
 }
 
 /* footer */
@@ -177,3 +184,117 @@ footer {
     display: table-column;
     text-align: center;
 }
+
+.result-screen {
+    text-align: center;
+    padding: 20px;
+}
+
+.calories-result {
+    font-size: 24px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.menu-result {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.restart-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.calorie-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #dfe8d8;
+    border-radius: 25px;
+    padding: 45px 70px;
+    gap: 60px;
+    width: 95%
+    margin: 40px auto;
+}
+
+.left-calories {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 40 px;
+}
+
+.left-calories h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.main-calories {
+    font-size: 90px;
+    font-weight: bold;
+    color: #49a13d;
+
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.main-calories span:last-child {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.goals {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+    border-left: 2px solid #c7c7c7;
+
+    padding-left: 45px;
+
+    min-width: 320px;
+}
+
+.goal-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 18px;
+}
+
+.goal-item p {
+    margin: 0;
+}
+
+.goal-item span {
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.circle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+
+.green {
+    background: #4da644;
+}
+
+.blue {
+    background: #3d63ff;
+}
+
+.orange {
+    background: #f8a11c;
+}
+
