@@ -98,75 +98,73 @@ html{
 
 /* секція з розрахунками */
 
+/* секція з розрахунками */
+
 .raz {
     border: 2px solid black;
     border-radius: 20px;
     margin: 10px 20px;
     padding: 15px;
-    display: block;
-    
 }
 
-.raz-select{
-    width: 170px;
-    height: 40px;
-    border-radius: 10px;
-    border: 2px solid #080000;
-    padding-left: 10px;
-    font-size: 14px;
-    background-color: white;
-    cursor: pointer;
-}
-
+/* контейнер всіх полів */
 .raz-c-s {
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 40px;
+}
+
+/* окремий блок */
+.raz-a {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    margin: 15px 50px;
-    font-size: 35px;
+    gap: 15px;
+}
+
+.raz-p {
+    font-size: 30px;
     text-align: center;
+}
+
+.raz-ta,
+.raz-select {
+    width: 175px;
+    height: 45px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: white;
+    box-sizing: border-box;
+    resize: none;
 }
 
 .raz-h {
     font-size: 40px;
-    margin: 30px 30px;
-    text-align: left;
+    margin: 30px;
 }
 
 .raz-btn {
-    font-size: 25px ;
-    text-align: center;
-    color: snow;
-    border: 1px solid ;
+    font-size: 25px;
+    color: white;
     border: 1px solid royalblue;
     border-radius: 10px;
     background-color: royalblue;
-    padding: 20px 80px;
-    margin: 20px 37%;
+    padding: 15px 60px;
+    margin: 20px auto;
+    display: block;
     transition: 0.7s;
+    cursor: pointer;
 }
 
 .raz-btn:hover {
-    font-size: 25px ;
-    text-align: center;
-    color: snow;
-    border: 1px solid ;
     border: 1px solid blue;
-    border-radius: 5px;
     background-color: blue;
-    padding: 20px 80px;
-    margin: 20px 37%;
-    transition: 0.7s;
-}
-
-.raz-ta {
-    font-size: 25px;
-    border: 1.5px solid black;
-    border-radius: 17px;
-    padding-top: 15px;
-    text-align: center;
-    font-family: sans-serif;
-    align-items: end;
 }
 
 /* footer */
