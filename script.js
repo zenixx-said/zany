@@ -94,3 +94,29 @@ calculateBtn.addEventListener("click", function () {
     formScreen.classList.add("hide");
     resultScreen.classList.remove("hide");
 });
+
+/* навігація */
+
+const homeLink = document.getElementById("home-link");
+const calcLink = document.getElementById("calc-link");
+const contactLink = document.getElementById("contact-link");
+
+homeLink.addEventListener("click", () => {
+    document.getElementById("start-screen").scrollIntoView({
+        behavior: "smooth"
+    });
+});
+
+calcLink.addEventListener("click", () => {
+    document.getElementById("form-screen").scrollIntoView({
+        behavior: "smooth"
+    });
+
+    formScreen.classList.remove("hide");
+});
+
+contactLink.addEventListener("click", () => {
+    document.getElementById("contacts").scrollIntoView({
+        behavior: "smooth"
+    });
+});
