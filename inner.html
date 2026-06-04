@@ -61,7 +61,6 @@
                 </select>
             </div>
 
-            <!-- Вибір статі -->
             <div class="raz-a">
                 <p class="raz-p">Стать</p>
 
@@ -79,37 +78,56 @@
     <h1>Ваш результат</h1>
 
     <div class="calorie-box">
-        <div class="calorie-box">
+        <div class="left-calories">
+            <h2>Твоя норма:</h2>
 
-            <div class="left-calories">
-                <h2>Твоя норма:</h2>
-                <div class="main-calories">
-                    <span id="maintain-calories">2200</span>
-                    <span>ккал</span>
-                </div>
-            </div>
-        
-            <div class="goals">
-                <div class="goal-item">
-                    <div class="circle green"></div>
-                    <p>Для схуднення:</p>
-                    <span id="lose-calories">1800 ккал</span>
-                </div>
-        
-                <div class="goal-item">
-                    <div class="circle blue"></div>
-                    <p>Для підтримки:</p>
-                    <span id="support-calories">2200 ккал</span>
-                </div>
-        
-                <div class="goal-item">
-                    <div class="circle orange"></div>
-                    <p>Для набору:</p>
-                    <span id="gain-calories">2600 ккал</span>
-                </div>
+            <div class="main-calories">
+                <span id="maintain-calories">2200</span>
+                <span>ккал</span>
             </div>
         </div>
-    <div id="menu-result"></div>
+
+        <div class="goals">
+
+            <div class="goal-item">
+                <div class="circle green"></div>
+                <p>Для схуднення:</p>
+                <span id="lose-calories">1800 ккал</span>
+            </div>
+
+            <div class="goal-item">
+                <div class="circle blue"></div>
+                <p>Для підтримки:</p>
+                <span id="support-calories">2200 ккал</span>
+            </div>
+
+            <div class="goal-item">
+                <div class="circle orange"></div>
+                <p>Для набору:</p>
+                <span id="gain-calories">2600 ккал</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="menu-result" class="menu-container"></div>
+
+    <div class="buttons-menu">
+        <button id="generate-new-btn" class="show-more-btn">
+            Згенерувати інше меню
+        </button>
+    
+        <button id="show-more-btn" class="show-more-btn">
+            Показати більше
+        </button>
+    </div>
+
+    <div id="premium-popup" class="premium-popup hide">
+        <h2>Преміум версія</h2>
+        <p>Для перегляду всіх продуктів придбайте Premium.</p>
+    </div>
+
 </section>
 </main>
 <footer id="contacts">
